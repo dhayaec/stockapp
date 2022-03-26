@@ -1,14 +1,12 @@
 import { useRouter } from 'next/router'
-import { menuItems } from '../../constants/constants'
+import { menuItems, MenuItemType } from '../../constants/constants'
 import Footer from './Footer'
 import Header from './Header'
 import MetaHeader from './MetaHeader'
 
 export default function Layout({ children }: any) {
   const router = useRouter()
-  const item = menuItems.find((i) => i.href === router.pathname) || {
-    name: '',
-  }
+  const item = menuItems.find((i) => i.href === router.pathname) as MenuItemType
   return (
     <div className='container mx-auto w-full lg:w-1/2'>
       <MetaHeader title={item.name} />
