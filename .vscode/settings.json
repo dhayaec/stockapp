@@ -32,7 +32,8 @@
     "**/.next": true,
     "**/dist/": true,
     "next-env.d.ts": true,
-    ".husky": true
+    ".husky": true,
+    "types.d.ts": true
   },
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
