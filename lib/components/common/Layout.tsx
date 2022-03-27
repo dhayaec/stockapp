@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Header from './Header'
 
 type LayoutProps = {
-  children: React.ReactChildren
+  children: React.ReactNode
 }
 
 export default function Layout({ children }: LayoutProps) {
