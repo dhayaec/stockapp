@@ -2,11 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
 
-type LayoutProps = {
-  children: React.ReactNode
-}
-
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: any) {
   return (
     <div className='container mx-auto w-full lg:w-8/12'>
       <Header />
