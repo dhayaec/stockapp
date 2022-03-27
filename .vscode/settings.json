@@ -41,5 +41,6 @@
     "source.sortImports": true,
     "source.organizeImports": true
   },
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "json.format.enable": false
 }
