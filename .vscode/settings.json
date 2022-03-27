@@ -33,7 +33,8 @@
     "**/dist/": true,
     "next-env.d.ts": true,
     ".husky": true,
-    "types.d.ts": true
+    "types.d.ts": true,
+    ".eslintcache": true
   },
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
